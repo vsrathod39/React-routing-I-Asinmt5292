@@ -21,7 +21,7 @@ export default function Navbar() {
     },
   ];
   return (
-    <div style>
+    <div>
       {links.map(({ to, title, id }) => {
         return (
           <Link key={id} to={to}>
