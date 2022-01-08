@@ -1,0 +1,33 @@
+.ProductDetails-container {
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 8px;
+  box-shadow: 0 0 2px 2px rgb(190, 190, 190);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.ProductDetails-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductDetails-container div div:nth-child(1) {
+  border: 1px solid rgb(226, 226, 226);
+  height: 150px;
+  width: 150px;
+}
+
+.ProductDetails-container div div:nth-child(2) p:nth-child(1) {
+  font-size: 20px;
+}
+
+.ProductDetails-container div div:nth-child(2) p:nth-child(2) {
+  font-size: 20px;
+  font-weight: 600;
+}
