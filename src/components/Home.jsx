@@ -1,4 +1,4 @@
-function Home() {
+export default function Home() {
   return (
     <>
       <div>
@@ -7,5 +7,3 @@ function Home() {
     </>
   );
 }
-
-export default Home;

@@ -1,4 +1,4 @@
-function ContactMe() {
+export default function ContactMe() {
   return (
     <>
       <div>
@@ -7,5 +7,3 @@ function ContactMe() {
     </>
   );
 }
-
-export default ContactMe;
